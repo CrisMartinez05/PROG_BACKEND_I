@@ -1,0 +1,17 @@
+{
+    "name": "prog_backend_i",
+    "version": "1.0.0",
+    "description": "Proyecto Ecommerce",
+    "main": "server.js",
+    "type": "module",
+    "scripts": {
+        "start": "node --watch --no-warnings server.js",
+        "stop": "taskkill /F /IM node.exe"
+    },
+    "keywords": [],
+    "author": "Cristian Martinez",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.19.2"
+    }
+}
